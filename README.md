@@ -1,26 +1,62 @@
-# Multi-Layer Perceptron for Image Classification
+# da6401_assignment_1
+---
+**Neha Rana (MA24M018)**
+
+
+M.Tech (Industrial Mathematics and Scientific Computing) IIT Madras
+
+
+[Wandb Report Link](https://wandb.ai/ma24m018-iit-ma/deep_learning/reports/Multi-Layer-Perceptron-for-Image-Classification--VmlldzoxNjAyMzcyNw)
+## Multi-Layer Perceptron for Image Classification
 
 This project implements a modular MLP from scratch (NumPy-based math) for:
 - MNIST
 - Fashion-MNIST
 
-## Install
-
-```bash
+## Installation & Setup
+1. Clone the repository:
+```
+git clone https://github.com/Neha-irongirl/da6401_assignment_1
+cd da6401_assignment_1
+```
+2. Install required dependencies:
+```
 pip install -r requirements.txt
+```
+
+3. Configure WandB:
+```
+wandb login
+```
+
+## Project structure
+
+```text
+.
+|-- README.md
+|-- requirements.txt
+|-- models/
+|   |-- .gitkeep
+|   `-- ...
+`-- src/
+    |-- train.py
+    |-- inference.py
+    |-- best_model.npy
+    |-- ann/
+    |   |-- __init__.py
+    |   |-- activations.py
+    |   |-- neural_layer.py
+    |   |-- neural_layers.py
+    |   |-- neural_network.py
+    |   |-- objective_functions.py
+    |   `-- optimizers.py
+    `-- utils/
+        |-- __init__.py
+        `-- data_loader.py
 ```
 
 ## 1.1 Implementation Specifications (Assignment Mapping)
 
-- Project structure:
-  - `src/ann/activations.py`
-  - `src/ann/neural_layers.py`
-  - `src/ann/objective_functions.py`
-  - `src/ann/optimizers.py`
-  - `src/ann/neural_network.py`
-  - `src/utils/data_loader.py`
-  - `src/train.py`
-  - `src/inference.py`
 - Required CLI (train/inference) is implemented with `argparse`:
   - `-d/--dataset`, `-e/--epochs`, `-b/--batch_size`, `-l/--loss`,
     `-o/--optimizer`, `-lr/--learning_rate`, `-wd/--weight_decay`,
@@ -134,11 +170,3 @@ python src/initialization_symmetry.py --dataset mnist --iterations 50 --num_neur
 ```bash
 python src/fashion_transfer_challenge.py --dataset fashion_mnist --epochs 12 --batch_size 64 --mode online
 ```
-
-## W&B Report
-
-- Project report: https://wandb.ai/ma24m018-iit-ma/deep_learning/reports/Multi-Layer-Perceptron-for-Image-Classification--VmlldzoxNjAyMzcyNw
-
-## GitHub Repository
-
-- Source code: https://github.com/Neha-irongirl/Multi-Layer-Perceptron-for-Image-Classification
