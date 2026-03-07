@@ -138,3 +138,7 @@ python src/fashion_transfer_challenge.py --dataset fashion_mnist --epochs 12 --b
 ## W&B Report
 
 - Project report: https://wandb.ai/ma24m018-iit-ma/deep_learning/reports/Multi-Layer-Perceptron-for-Image-Classification--VmlldzoxNjAyMzcyNw
+
+## GitHub Repository
+
+- Source code: https://github.com/Neha-irongirl/Multi-Layer-Perceptron-for-Image-Classification

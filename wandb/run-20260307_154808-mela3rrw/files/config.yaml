@@ -1,0 +1,91 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            lqbyf34hckulnskayb5fgm2j44hjw3gs:
+                args:
+                    - --epochs
+                    - "10"
+                    - --wandb_project
+                    - ann
+                    - --wandb_entity
+                    - ma24m018-iit-ma
+                    - --wandb_mode
+                    - online
+                codePath: src\fashion_transfer_top3.py
+                codePathLocal: src\fashion_transfer_top3.py
+                cpu_count: 4
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "180007989248"
+                        used: "157771628544"
+                email: ma24m018@smail.iitm.ac.in
+                executable: C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification\.venv\Scripts\python.exe
+                git:
+                    commit: 981290363e1a87fd2c63a681179ac4e1b5e4698c
+                    remote: https://github.com/Neha-irongirl/Multi-Layer-Perceptron-for-Image-Classification.git
+                host: LAPTOP-BQBRQ1PT
+                memory:
+                    total: "12593659904"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification\src\fashion_transfer_top3.py
+                python: CPython 3.13.3
+                root: C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification
+                startedAt: "2026-03-07T10:18:08.271218Z"
+                writerId: lqbyf34hckulnskayb5fgm2j44hjw3gs
+        m: []
+        python_version: 3.13.3
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 53
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+            "3":
+                - 2
+                - 13
+                - 16
+                - 61
+                - 62
+            "4": 3.13.3
+            "5": 0.25.0
+            "8":
+                - 3
+            "12": 0.25.0
+            "13": windows-amd64
+activation_function:
+    value: relu
+batch_size:
+    value: 64
+dataset:
+    value: fashion_mnist
+epochs:
+    value: 10
+initialization_method:
+    value: xavier
+input_dim:
+    value: 784
+learning_rate:
+    value: 0.001
+num_hidden_layers:
+    value: 3
+num_neurons:
+    value: 256,128,64
+num_neurons_resolved:
+    value: '[256, 128, 64]'
+optimizer:
+    value: nadam
+output_dim:
+    value: 10
+random_seed:
+    value: 42
+val_ratio:
+    value: 0.1
+weight_decay:
+    value: 0
