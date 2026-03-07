@@ -6,7 +6,7 @@
 M.Tech (Industrial Mathematics and Scientific Computing) IIT Madras
 
 
-[Wandb Report Link](https://wandb.ai/ma24m018-iit-ma/deep_learning/reports/Multi-Layer-Perceptron-for-Image-Classification--VmlldzoxNjAyMzcyNw)
+[Wandb Report Link](https://api.wandb.ai/links/ma24m018-iit-ma/lgu890pd)
 
 [Github Repository Link](https://github.com/Neha-irongirl/da6401_assignment_1)
 ## Multi-Layer Perceptron for Image Classification
