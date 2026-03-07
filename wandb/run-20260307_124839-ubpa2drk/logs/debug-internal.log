@@ -1,0 +1,12 @@
+{"time":"2026-03-07T12:48:42.1671519+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T12:48:42.6250669+05:30","level":"INFO","msg":"stream: created new stream","id":"ubpa2drk"}
+{"time":"2026-03-07T12:48:42.6250669+05:30","level":"INFO","msg":"handler: started","stream_id":"ubpa2drk"}
+{"time":"2026-03-07T12:48:42.6279135+05:30","level":"INFO","msg":"stream: started","id":"ubpa2drk"}
+{"time":"2026-03-07T12:48:42.6279135+05:30","level":"INFO","msg":"writer: started","stream_id":"ubpa2drk"}
+{"time":"2026-03-07T12:48:42.6283399+05:30","level":"INFO","msg":"sender: started","stream_id":"ubpa2drk"}
+{"time":"2026-03-07T12:48:53.8037718+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T12:48:54.1865659+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-07T12:48:54.1956328+05:30","level":"INFO","msg":"stream: closing","id":"ubpa2drk"}
+{"time":"2026-03-07T12:48:54.1956328+05:30","level":"INFO","msg":"handler: closed","stream_id":"ubpa2drk"}
+{"time":"2026-03-07T12:48:54.2040429+05:30","level":"INFO","msg":"sender: closed","stream_id":"ubpa2drk"}
+{"time":"2026-03-07T12:48:54.2040429+05:30","level":"INFO","msg":"stream: closed","id":"ubpa2drk"}

@@ -1,0 +1,38 @@
+{
+  "os":  "Windows-11-10.0.26200-SP0",
+  "python":  "CPython 3.13.3",
+  "startedAt":  "2026-03-06T05:33:10.237325Z",
+  "args":  [
+    "--epochs",
+    "10",
+    "--wandb_project",
+    "ann",
+    "--wandb_entity",
+    "ma24m018-iit-ma",
+    "--wandb_mode",
+    "online"
+  ],
+  "program":  "C:\\Users\\Ganga Sharan\\OneDrive\\Desktop\\dl_project\\Multi-Layer-Perceptron-for-Image-Classification\\src\\fashion_transfer_challenge.py",
+  "codePath":  "src\\fashion_transfer_challenge.py",
+  "codePathLocal":  "src\\fashion_transfer_challenge.py",
+  "git":  {
+    "remote":  "https://github.com/Neha-irongirl/Multi-Layer-Perceptron-for-Image-Classification.git",
+    "commit":  "3eda2518ab39d39780a6f2e6c0fdd0e4b5bba5d5"
+  },
+  "email":  "ma24m018@smail.iitm.ac.in",
+  "root":  "C:\\Users\\Ganga Sharan\\OneDrive\\Desktop\\dl_project\\Multi-Layer-Perceptron-for-Image-Classification",
+  "host":  "LAPTOP-BQBRQ1PT",
+  "executable":  "C:\\Users\\Ganga Sharan\\OneDrive\\Desktop\\dl_project\\Multi-Layer-Perceptron-for-Image-Classification\\.venv\\Scripts\\python.exe",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "180007989248",
+      "used":  "153278976000"
+    }
+  },
+  "memory":  {
+    "total":  "12593659904"
+  },
+  "writerId":  "r9y2xq6u44byrhm0cze98rtw8uzqtj1s"
+}

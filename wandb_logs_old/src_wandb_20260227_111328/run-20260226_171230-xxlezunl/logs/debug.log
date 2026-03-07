@@ -1,0 +1,22 @@
+2026-02-26 17:12:30,498 INFO    Thread-117 (_run_job):22356 [wandb_setup.py:_flush():81] Current SDK version is 0.25.0
+2026-02-26 17:12:30,499 INFO    Thread-117 (_run_job):22356 [wandb_setup.py:_flush():81] Configure stats pid to 22356
+2026-02-26 17:12:30,499 INFO    Thread-117 (_run_job):22356 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-02-26 17:12:30,499 INFO    Thread-117 (_run_job):22356 [wandb_init.py:setup_run_log_directory():717] Logging user logs to C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification\src\wandb\run-20260226_171230-xxlezunl\logs\debug.log
+2026-02-26 17:12:30,499 INFO    Thread-117 (_run_job):22356 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification\src\wandb\run-20260226_171230-xxlezunl\logs\debug-internal.log
+2026-02-26 17:12:30,500 INFO    Thread-117 (_run_job):22356 [wandb_init.py:init():844] calling init triggers
+2026-02-26 17:12:30,500 INFO    Thread-117 (_run_job):22356 [wandb_init.py:init():849] wandb.init called with sweep_config: {'activation_function': 'tanh', 'batch_size': 32, 'dataset': 'mnist', 'epochs': 15, 'initialization_method': 'normal', 'learning_rate': 0.01, 'num_hidden_layers': 4, 'num_neurons': '512', 'optimizer': 'rmsprop', 'random_seed': 123, 'val_ratio': 0.1, 'weight_decay': 0}
+config: {'_wandb': {}}
+2026-02-26 17:12:30,500 INFO    Thread-117 (_run_job):22356 [wandb_init.py:init():892] starting backend
+2026-02-26 17:12:35,148 INFO    Thread-117 (_run_job):22356 [wandb_init.py:init():895] sending inform_init request
+2026-02-26 17:12:35,156 INFO    Thread-117 (_run_job):22356 [wandb_init.py:init():903] backend started and connected
+2026-02-26 17:12:35,157 INFO    Thread-117 (_run_job):22356 [wandb_run.py:_config_callback():1403] config_cb None None {'activation_function': 'tanh', 'batch_size': 32, 'dataset': 'mnist', 'epochs': 15, 'initialization_method': 'normal', 'learning_rate': 0.01, 'num_hidden_layers': 4, 'num_neurons': '512', 'optimizer': 'rmsprop', 'random_seed': 123, 'val_ratio': 0.1, 'weight_decay': 0}
+2026-02-26 17:12:35,159 INFO    Thread-117 (_run_job):22356 [wandb_init.py:init():973] updated telemetry
+2026-02-26 17:12:35,217 INFO    Thread-117 (_run_job):22356 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-02-26 17:12:36,481 INFO    Thread-117 (_run_job):22356 [wandb_init.py:init():1042] starting run threads in backend
+2026-02-26 17:12:36,724 INFO    Thread-117 (_run_job):22356 [wandb_run.py:_console_start():2524] atexit reg
+2026-02-26 17:12:36,724 INFO    Thread-117 (_run_job):22356 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-02-26 17:12:36,725 INFO    Thread-117 (_run_job):22356 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-02-26 17:12:36,725 INFO    Thread-117 (_run_job):22356 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-02-26 17:12:36,727 INFO    Thread-117 (_run_job):22356 [wandb_init.py:init():1082] run started, returning control to user process
+2026-02-26 17:12:36,736 INFO    Thread-117 (_run_job):22356 [wandb_run.py:_config_callback():1403] config_cb None None {}
+2026-02-26 17:12:37,476 INFO    Thread-117 (_run_job):22356 [wandb_run.py:_config_callback():1403] config_cb None None {'input_dim': 784, 'output_dim': 10, 'num_neurons_resolved': '512'}

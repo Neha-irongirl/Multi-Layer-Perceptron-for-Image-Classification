@@ -1,0 +1,82 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            r9y2xq6u44byrhm0cze98rtw8uzqtj1s:
+                args:
+                    - --epochs
+                    - "10"
+                    - --wandb_project
+                    - ann
+                    - --wandb_entity
+                    - ma24m018-iit-ma
+                    - --wandb_mode
+                    - online
+                codePath: src\fashion_transfer_challenge.py
+                codePathLocal: src\fashion_transfer_challenge.py
+                cpu_count: 4
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "180007989248"
+                        used: "153278976000"
+                email: ma24m018@smail.iitm.ac.in
+                executable: C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification\.venv\Scripts\python.exe
+                git:
+                    commit: 3eda2518ab39d39780a6f2e6c0fdd0e4b5bba5d5
+                    remote: https://github.com/Neha-irongirl/Multi-Layer-Perceptron-for-Image-Classification.git
+                host: LAPTOP-BQBRQ1PT
+                memory:
+                    total: "12593659904"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification\src\fashion_transfer_challenge.py
+                python: CPython 3.13.3
+                root: C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification
+                startedAt: "2026-03-06T05:33:10.237325Z"
+                writerId: r9y2xq6u44byrhm0cze98rtw8uzqtj1s
+        m: []
+        python_version: 3.13.3
+        t:
+            "1":
+                - 5
+                - 53
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+            "3":
+                - 2
+                - 13
+                - 16
+                - 62
+            "4": 3.13.3
+            "5": 0.25.0
+            "8":
+                - 3
+            "12": 0.25.0
+            "13": windows-amd64
+batch_size:
+    value: 64
+epochs:
+    value: 10
+initialization:
+    value: xavier
+learning_rate:
+    value: 0.001
+out_csv:
+    value: models/fashion_transfer_30_configs.csv
+random_seed:
+    value: 42
+val_size:
+    value: 0.1
+wandb_entity:
+    value: ma24m018-iit-ma
+wandb_mode:
+    value: online
+wandb_project:
+    value: ann
+wandb_run_name:
+    value: fashion_30_configs_10_epochs
+weight_decay:
+    value: 0

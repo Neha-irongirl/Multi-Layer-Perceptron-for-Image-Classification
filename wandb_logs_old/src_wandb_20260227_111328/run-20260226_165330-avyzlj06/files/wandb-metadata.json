@@ -1,0 +1,39 @@
+{
+  "os":  "Windows-11-10.0.26200-SP0",
+  "python":  "CPython 3.13.3",
+  "startedAt":  "2026-02-26T11:23:30.686914Z",
+  "args":  [
+    "--run_sweep",
+    "--sweep_config",
+    "sweep_config.yaml",
+    "--sweep_count",
+    "100",
+    "--wandb_project",
+    "mnist-ann",
+    "--wandb_mode",
+    "online"
+  ],
+  "program":  "C:\\Users\\Ganga Sharan\\OneDrive\\Desktop\\dl_project\\Multi-Layer-Perceptron-for-Image-Classification\\src\\train.py",
+  "codePath":  "src\\train.py",
+  "codePathLocal":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/Neha-irongirl/Multi-Layer-Perceptron-for-Image-Classification.git",
+    "commit":  "3eda2518ab39d39780a6f2e6c0fdd0e4b5bba5d5"
+  },
+  "email":  "ma24m018@smail.iitm.ac.in",
+  "root":  "C:\\Users\\Ganga Sharan\\OneDrive\\Desktop\\dl_project\\Multi-Layer-Perceptron-for-Image-Classification\\src",
+  "host":  "LAPTOP-BQBRQ1PT",
+  "executable":  "C:\\Users\\Ganga Sharan\\OneDrive\\Desktop\\dl_project\\Multi-Layer-Perceptron-for-Image-Classification\\.venv\\Scripts\\python.exe",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "180007989248",
+      "used":  "150602395648"
+    }
+  },
+  "memory":  {
+    "total":  "12593659904"
+  },
+  "writerId":  "g5gycr368vx52lnkfm26ky2zs9jmhejj"
+}

@@ -1,0 +1,29 @@
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'dataset' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'num_hidden_layers' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'num_neurons' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'initialization_method' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'activation_function' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'optimizer' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'learning_rate' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'epochs' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'batch_size' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'weight_decay' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'val_ratio' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'random_seed' was locked by 'sweep' (ignored update).
+Epoch 001/15 | train_loss=1.4809 train_acc=0.6002 | val_loss=1.4788 val_acc=0.5955
+Epoch 002/15 | train_loss=1.0766 train_acc=0.7411 | val_loss=1.0765 val_acc=0.7390
+Epoch 003/15 | train_loss=0.8742 train_acc=0.7873 | val_loss=0.8757 val_acc=0.7867
+Epoch 004/15 | train_loss=0.7555 train_acc=0.8133 | val_loss=0.7588 val_acc=0.8098
+Epoch 005/15 | train_loss=0.6766 train_acc=0.8317 | val_loss=0.6813 val_acc=0.8247
+Epoch 006/15 | train_loss=0.6199 train_acc=0.8448 | val_loss=0.6260 val_acc=0.8370
+Epoch 007/15 | train_loss=0.5768 train_acc=0.8543 | val_loss=0.5839 val_acc=0.8458
+Epoch 008/15 | train_loss=0.5427 train_acc=0.8612 | val_loss=0.5511 val_acc=0.8545
+Epoch 009/15 | train_loss=0.5151 train_acc=0.8676 | val_loss=0.5243 val_acc=0.8610
+Epoch 010/15 | train_loss=0.4922 train_acc=0.8720 | val_loss=0.5022 val_acc=0.8652
+Epoch 011/15 | train_loss=0.4729 train_acc=0.8757 | val_loss=0.4837 val_acc=0.8688
+Epoch 012/15 | train_loss=0.4563 train_acc=0.8796 | val_loss=0.4676 val_acc=0.8738
+Epoch 013/15 | train_loss=0.4419 train_acc=0.8825 | val_loss=0.4538 val_acc=0.8762
+Epoch 014/15 | train_loss=0.4293 train_acc=0.8853 | val_loss=0.4419 val_acc=0.8775
+Epoch 015/15 | train_loss=0.4180 train_acc=0.8873 | val_loss=0.4310 val_acc=0.8803
+Test loss: 0.4055
+Test accuracy: 0.8927

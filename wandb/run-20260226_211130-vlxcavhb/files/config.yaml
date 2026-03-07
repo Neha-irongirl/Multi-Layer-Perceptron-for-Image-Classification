@@ -1,0 +1,59 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            qxh3v15fun2eihdk05p0nu0tljn1vvwi:
+                args:
+                    - --wandb_mode
+                    - online
+                    - --run_count
+                    - "10"
+                codePath: src\loss_comparison.py
+                codePathLocal: src\loss_comparison.py
+                cpu_count: 4
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "180007989248"
+                        used: "152266014720"
+                email: ma24m018@smail.iitm.ac.in
+                executable: C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification\.venv\Scripts\python.exe
+                git:
+                    commit: 3eda2518ab39d39780a6f2e6c0fdd0e4b5bba5d5
+                    remote: https://github.com/Neha-irongirl/Multi-Layer-Perceptron-for-Image-Classification.git
+                host: LAPTOP-BQBRQ1PT
+                memory:
+                    total: "12593659904"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification\src\loss_comparison.py
+                python: CPython 3.13.3
+                root: C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification
+                startedAt: "2026-02-26T15:41:30.103712Z"
+                writerId: qxh3v15fun2eihdk05p0nu0tljn1vvwi
+        m: []
+        python_version: 3.13.3
+        t:
+            "1":
+                - 5
+                - 53
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+            "3":
+                - 2
+                - 14
+                - 17
+                - 61
+                - 62
+            "4": 3.13.3
+            "5": 0.25.0
+            "8":
+                - 3
+            "12": 0.25.0
+            "13": windows-amd64
+loss_function:
+    value: cross_entropy_loss
+seed:
+    value: 42

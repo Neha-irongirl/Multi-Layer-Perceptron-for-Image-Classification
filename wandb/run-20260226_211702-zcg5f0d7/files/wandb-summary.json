@@ -1,0 +1,1 @@
+{"seed":46,"final/train_loss":0.013123240358311871,"loss_function":"cross_entropy_loss","epoch":10,"_step":10,"final/val_loss":0.10275399619772203,"_wandb":{"runtime":82},"train/accuracy":0.9957407407407407,"_timestamp":1.77212091099359e+09,"train/loss":0.013123240358311871,"val/accuracy":0.976,"val/loss":0.10275399619772203,"final/val_accuracy":0.976,"_runtime":82.6615332}

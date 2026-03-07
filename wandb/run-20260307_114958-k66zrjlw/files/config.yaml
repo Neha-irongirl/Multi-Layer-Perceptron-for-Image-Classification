@@ -1,0 +1,97 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            oykiwlvthpc26j9crdp1dnlche6lkj85:
+                args:
+                    - --entity
+                    - ma24m018-iit-ma
+                    - --project
+                    - mnist-ann
+                    - --metric_key
+                    - best_val_accuracy
+                    - --log_to_wandb
+                    - --log_project
+                    - mnist-ann
+                    - --log_run_name
+                    - mnist-error-analysis
+                    - --wandb_mode
+                    - online
+                codePath: src\error_analysis.py
+                codePathLocal: src\error_analysis.py
+                cpu_count: 4
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "180007989248"
+                        used: "154201448448"
+                email: ma24m018@smail.iitm.ac.in
+                executable: C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification\.venv\Scripts\python.exe
+                git:
+                    commit: 3eda2518ab39d39780a6f2e6c0fdd0e4b5bba5d5
+                    remote: https://github.com/Neha-irongirl/Multi-Layer-Perceptron-for-Image-Classification.git
+                host: LAPTOP-BQBRQ1PT
+                memory:
+                    total: "12593659904"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification\src\error_analysis.py
+                python: CPython 3.13.3
+                root: C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification
+                startedAt: "2026-03-07T06:19:58.084562Z"
+                writerId: oykiwlvthpc26j9crdp1dnlche6lkj85
+        m: []
+        python_version: 3.13.3
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 53
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+            "3":
+                - 2
+                - 13
+                - 16
+                - 62
+            "4": 3.13.3
+            "5": 0.25.0
+            "8":
+                - 3
+            "12": 0.25.0
+            "13": windows-amd64
+activation_function:
+    value: tanh
+batch_size:
+    value: 64
+dataset:
+    value: mnist
+epochs:
+    value: 15
+initialization_method:
+    value: he
+learning_rate:
+    value: 0.0005
+num_hidden_layers:
+    value: 4
+num_neurons:
+    value: 256
+optimizer:
+    value: adam
+random_seed:
+    value: 7
+source_metric_key:
+    value: best_val_accuracy
+source_metric_value:
+    value: 0.9791666666666666
+source_project:
+    value: mnist-ann
+source_run_id:
+    value: zlca2hgr
+val_size:
+    value: 0.1
+weight_decay:
+    value: 0

@@ -1,0 +1,12 @@
+{"time":"2026-03-06T20:37:47.8350642+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-06T20:37:48.2421765+05:30","level":"INFO","msg":"stream: created new stream","id":"tixho9bo"}
+{"time":"2026-03-06T20:37:48.2428019+05:30","level":"INFO","msg":"handler: started","stream_id":"tixho9bo"}
+{"time":"2026-03-06T20:37:48.250838+05:30","level":"INFO","msg":"stream: started","id":"tixho9bo"}
+{"time":"2026-03-06T20:37:48.250838+05:30","level":"INFO","msg":"writer: started","stream_id":"tixho9bo"}
+{"time":"2026-03-06T20:37:48.250838+05:30","level":"INFO","msg":"sender: started","stream_id":"tixho9bo"}
+{"time":"2026-03-06T20:37:54.480553+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-06T20:37:54.876364+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-06T20:37:54.884234+05:30","level":"INFO","msg":"stream: closing","id":"tixho9bo"}
+{"time":"2026-03-06T20:37:54.884234+05:30","level":"INFO","msg":"handler: closed","stream_id":"tixho9bo"}
+{"time":"2026-03-06T20:37:54.8847773+05:30","level":"INFO","msg":"sender: closed","stream_id":"tixho9bo"}
+{"time":"2026-03-06T20:37:54.8847773+05:30","level":"INFO","msg":"stream: closed","id":"tixho9bo"}

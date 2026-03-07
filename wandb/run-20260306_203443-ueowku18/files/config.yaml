@@ -1,0 +1,113 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            buldfhdvybh3v7uiiojcnpxta59x00xc:
+                args:
+                    - --dataset
+                    - mnist
+                    - --iterations
+                    - "50"
+                    - --track_layer
+                    - "1"
+                    - --track_neurons
+                    - "5"
+                    - --hidden_layers
+                    - "3"
+                    - --hidden_size
+                    - "128"
+                    - --activation
+                    - relu
+                    - --optimizer
+                    - sgd
+                    - --learning_rate
+                    - "0.001"
+                    - --wandb_project
+                    - ann
+                    - --wandb_entity
+                    - ma24m018-iit-ma
+                    - --wandb_mode
+                    - online
+                codePath: src\weight_init_symmetry.py
+                codePathLocal: src\weight_init_symmetry.py
+                cpu_count: 4
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "180007989248"
+                        used: "154222936064"
+                email: ma24m018@smail.iitm.ac.in
+                executable: C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification\.venv\Scripts\python.exe
+                git:
+                    commit: 3eda2518ab39d39780a6f2e6c0fdd0e4b5bba5d5
+                    remote: https://github.com/Neha-irongirl/Multi-Layer-Perceptron-for-Image-Classification.git
+                host: LAPTOP-BQBRQ1PT
+                memory:
+                    total: "12593659904"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification\src\weight_init_symmetry.py
+                python: CPython 3.13.3
+                root: C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification
+                startedAt: "2026-03-06T15:04:43.271667Z"
+                writerId: buldfhdvybh3v7uiiojcnpxta59x00xc
+        m: []
+        python_version: 3.13.3
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 53
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+            "3":
+                - 2
+                - 13
+                - 16
+                - 61
+                - 62
+            "4": 3.13.3
+            "5": 0.25.0
+            "8":
+                - 3
+            "12": 0.25.0
+            "13": windows-amd64
+activation:
+    value: relu
+batch_size:
+    value: 64
+dataset:
+    value: mnist
+hidden_layers:
+    value: 3
+hidden_size:
+    value: 128
+iterations:
+    value: 50
+learning_rate:
+    value: 0.001
+optimizer:
+    value: sgd
+out_plot:
+    value: models/q2_9_gradient_symmetry.png
+random_seed:
+    value: 42
+track_layer:
+    value: 1
+track_neurons:
+    value: 5
+val_size:
+    value: 0.1
+wandb_entity:
+    value: ma24m018-iit-ma
+wandb_mode:
+    value: online
+wandb_project:
+    value: ann
+wandb_run_name:
+    value: q2_9_zeros_vs_xavier
+weight_decay:
+    value: 0

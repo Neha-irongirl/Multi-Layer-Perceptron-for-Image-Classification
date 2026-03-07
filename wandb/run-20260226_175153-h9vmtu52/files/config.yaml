@@ -1,0 +1,70 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            y29ptw5jdsjm6h7drxv2vnvlzgvke99c:
+                args:
+                    - --wandb_mode
+                    - online
+                    - --wandb_project
+                    - mnist-dead-neuron-investigation
+                codePath: src\dead_neuron_investigation.py
+                codePathLocal: src\dead_neuron_investigation.py
+                cpu_count: 4
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "180007989248"
+                        used: "150657159168"
+                email: ma24m018@smail.iitm.ac.in
+                executable: C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification\.venv\Scripts\python.exe
+                git:
+                    commit: 3eda2518ab39d39780a6f2e6c0fdd0e4b5bba5d5
+                    remote: https://github.com/Neha-irongirl/Multi-Layer-Perceptron-for-Image-Classification.git
+                host: LAPTOP-BQBRQ1PT
+                memory:
+                    total: "12593659904"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification\src\dead_neuron_investigation.py
+                python: CPython 3.13.3
+                root: C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification
+                startedAt: "2026-02-26T12:21:53.325779Z"
+                writerId: y29ptw5jdsjm6h7drxv2vnvlzgvke99c
+        m: []
+        python_version: 3.13.3
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 53
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+            "3":
+                - 2
+                - 16
+                - 61
+                - 62
+            "4": 3.13.3
+            "5": 0.25.0
+            "8":
+                - 3
+            "12": 0.25.0
+            "13": windows-amd64
+dataset:
+    value: mnist
+epochs:
+    value: 20
+hidden_layers:
+    value: 3
+hidden_size:
+    value: 128
+learning_rate:
+    value: 0.1
+max_seeds:
+    value: 12
+optimizer:
+    value: sgd

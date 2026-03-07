@@ -1,0 +1,54 @@
+{
+  "os":  "Windows-11-10.0.26200-SP0",
+  "python":  "CPython 3.13.3",
+  "startedAt":  "2026-03-06T05:00:52.612748Z",
+  "args":  [
+    "--dataset",
+    "mnist",
+    "--iterations",
+    "50",
+    "--track_layer",
+    "1",
+    "--track_neurons",
+    "5",
+    "--hidden_layers",
+    "3",
+    "--hidden_size",
+    "128",
+    "--activation",
+    "relu",
+    "--optimizer",
+    "sgd",
+    "--learning_rate",
+    "0.001",
+    "--wandb_project",
+    "ann",
+    "--wandb_entity",
+    "ma24m018-iit-ma",
+    "--wandb_mode",
+    "online"
+  ],
+  "program":  "C:\\Users\\Ganga Sharan\\OneDrive\\Desktop\\dl_project\\Multi-Layer-Perceptron-for-Image-Classification\\src\\weight_init_symmetry.py",
+  "codePath":  "src\\weight_init_symmetry.py",
+  "codePathLocal":  "src\\weight_init_symmetry.py",
+  "git":  {
+    "remote":  "https://github.com/Neha-irongirl/Multi-Layer-Perceptron-for-Image-Classification.git",
+    "commit":  "3eda2518ab39d39780a6f2e6c0fdd0e4b5bba5d5"
+  },
+  "email":  "ma24m018@smail.iitm.ac.in",
+  "root":  "C:\\Users\\Ganga Sharan\\OneDrive\\Desktop\\dl_project\\Multi-Layer-Perceptron-for-Image-Classification",
+  "host":  "LAPTOP-BQBRQ1PT",
+  "executable":  "C:\\Users\\Ganga Sharan\\OneDrive\\Desktop\\dl_project\\Multi-Layer-Perceptron-for-Image-Classification\\.venv\\Scripts\\python.exe",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "180007989248",
+      "used":  "153252892672"
+    }
+  },
+  "memory":  {
+    "total":  "12593659904"
+  },
+  "writerId":  "ba711d6nd7v08wac1sqlwas074d8sbi2"
+}

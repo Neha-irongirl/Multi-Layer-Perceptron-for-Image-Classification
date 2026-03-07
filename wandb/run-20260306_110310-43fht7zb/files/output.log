@@ -1,0 +1,38 @@
+[01/30] a1_2x128_relu_adam
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/train-labels-idx1-ubyte.gz
+[1m29515/29515[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 0us/step
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/train-images-idx3-ubyte.gz
+[1m26421880/26421880[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 0us/step
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/t10k-labels-idx1-ubyte.gz
+[1m5148/5148[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 1us/step
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/t10k-images-idx3-ubyte.gz
+[1m4422102/4422102[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 0us/step
+[02/30] a1_2x128_relu_nadam
+[03/30] a1_2x128_tanh_adam
+[04/30] a1_2x128_tanh_nadam
+[05/30] a1_2x128_sigmoid_adam
+[06/30] a1_2x128_sigmoid_nadam
+[07/30] a2_3x128_relu_adam
+[08/30] a2_3x128_relu_nadam
+[09/30] a2_3x128_tanh_adam
+[10/30] a2_3x128_tanh_nadam
+[11/30] a2_3x128_sigmoid_adam
+[12/30] a2_3x128_sigmoid_nadam
+[13/30] a3_3x256_relu_adam
+[14/30] a3_3x256_relu_nadam
+[15/30] a3_3x256_tanh_adam
+[16/30] a3_3x256_tanh_nadam
+[17/30] a3_3x256_sigmoid_adam
+[18/30] a3_3x256_sigmoid_nadam
+[19/30] a4_4x128_relu_adam
+[20/30] a4_4x128_relu_nadam
+[21/30] a4_4x128_tanh_adam
+[22/30] a4_4x128_tanh_nadam
+[23/30] a4_4x128_sigmoid_adam
+[24/30] a4_4x128_sigmoid_nadam
+[25/30] a5_3x256_128_64_relu_adam
+[26/30] a5_3x256_128_64_relu_nadam
+[27/30] a5_3x256_128_64_tanh_adam
+[28/30] a5_3x256_128_64_tanh_nadam
+[29/30] a5_3x256_128_64_sigmoid_adam
+[30/30] a5_3x256_128_64_sigmoid_nadam

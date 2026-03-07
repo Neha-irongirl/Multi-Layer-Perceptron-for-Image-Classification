@@ -1,0 +1,12 @@
+{"time":"2026-02-26T21:11:34.7563044+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-26T21:11:35.6384793+05:30","level":"INFO","msg":"stream: created new stream","id":"vlxcavhb"}
+{"time":"2026-02-26T21:11:35.6391638+05:30","level":"INFO","msg":"handler: started","stream_id":"vlxcavhb"}
+{"time":"2026-02-26T21:11:35.6429924+05:30","level":"INFO","msg":"stream: started","id":"vlxcavhb"}
+{"time":"2026-02-26T21:11:35.6429924+05:30","level":"INFO","msg":"writer: started","stream_id":"vlxcavhb"}
+{"time":"2026-02-26T21:11:35.6429924+05:30","level":"INFO","msg":"sender: started","stream_id":"vlxcavhb"}
+{"time":"2026-02-26T21:13:02.878444+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-26T21:13:03.5988295+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-26T21:13:03.6216039+05:30","level":"INFO","msg":"stream: closing","id":"vlxcavhb"}
+{"time":"2026-02-26T21:13:03.6216039+05:30","level":"INFO","msg":"handler: closed","stream_id":"vlxcavhb"}
+{"time":"2026-02-26T21:13:03.6286041+05:30","level":"INFO","msg":"sender: closed","stream_id":"vlxcavhb"}
+{"time":"2026-02-26T21:13:03.6286041+05:30","level":"INFO","msg":"stream: closed","id":"vlxcavhb"}

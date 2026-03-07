@@ -1,0 +1,15 @@
+Epoch 01 | CE val_acc=0.9542, CE val_loss=0.1477 | MSE val_acc=0.9535, MSE val_loss=0.0072
+Epoch 02 | CE val_acc=0.9642, CE val_loss=0.1182 | MSE val_acc=0.9622, MSE val_loss=0.0061
+Epoch 03 | CE val_acc=0.9715, CE val_loss=0.0963 | MSE val_acc=0.9665, MSE val_loss=0.0052
+Epoch 04 | CE val_acc=0.9735, CE val_loss=0.0902 | MSE val_acc=0.9660, MSE val_loss=0.0053
+Epoch 05 | CE val_acc=0.9745, CE val_loss=0.0977 | MSE val_acc=0.9718, MSE val_loss=0.0045
+Epoch 06 | CE val_acc=0.9722, CE val_loss=0.0995 | MSE val_acc=0.9762, MSE val_loss=0.0037
+Epoch 07 | CE val_acc=0.9735, CE val_loss=0.1038 | MSE val_acc=0.9727, MSE val_loss=0.0044
+Epoch 08 | CE val_acc=0.9752, CE val_loss=0.0924 | MSE val_acc=0.9750, MSE val_loss=0.0041
+Epoch 09 | CE val_acc=0.9747, CE val_loss=0.0951 | MSE val_acc=0.9725, MSE val_loss=0.0044
+Epoch 10 | CE val_acc=0.9693, CE val_loss=0.1552 | MSE val_acc=0.9763, MSE val_loss=0.0039
+Epoch 11 | CE val_acc=0.9770, CE val_loss=0.1079 | MSE val_acc=0.9742, MSE val_loss=0.0042
+Epoch 12 | CE val_acc=0.9780, CE val_loss=0.1098 | MSE val_acc=0.9745, MSE val_loss=0.0042
+Epoch 13 | CE val_acc=0.9770, CE val_loss=0.0956 | MSE val_acc=0.9758, MSE val_loss=0.0039
+Epoch 14 | CE val_acc=0.9757, CE val_loss=0.1169 | MSE val_acc=0.9763, MSE val_loss=0.0039
+Epoch 15 | CE val_acc=0.9757, CE val_loss=0.1073 | MSE val_acc=0.9758, MSE val_loss=0.0041

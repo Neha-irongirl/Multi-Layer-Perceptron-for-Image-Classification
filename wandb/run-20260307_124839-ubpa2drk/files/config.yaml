@@ -1,0 +1,173 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            p7fvwmua7udejl4rfukipwb36axhjd5o:
+                args:
+                    - --entity
+                    - ma24m018-iit-ma
+                    - --project
+                    - mnist-ann
+                    - --run_filter_state
+                    - finished
+                    - --sort_by
+                    - created_at
+                    - --sort_order
+                    - asc
+                    - --log_to_wandb
+                    - --log_project
+                    - global-performance-analysis
+                    - --log_run_name
+                    - global-train-vs-test
+                    - --wandb_mode
+                    - online
+                codePath: src\global_performance_analysis.py
+                codePathLocal: src\global_performance_analysis.py
+                cpu_count: 4
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "180007989248"
+                        used: "157861146624"
+                email: ma24m018@smail.iitm.ac.in
+                executable: C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification\.venv\Scripts\python.exe
+                git:
+                    commit: 3eda2518ab39d39780a6f2e6c0fdd0e4b5bba5d5
+                    remote: https://github.com/Neha-irongirl/Multi-Layer-Perceptron-for-Image-Classification.git
+                host: LAPTOP-BQBRQ1PT
+                memory:
+                    total: "12593659904"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification\src\global_performance_analysis.py
+                python: CPython 3.13.3
+                root: C:\Users\Ganga Sharan\OneDrive\Desktop\dl_project\Multi-Layer-Perceptron-for-Image-Classification
+                startedAt: "2026-03-07T07:18:39.824870Z"
+                writerId: p7fvwmua7udejl4rfukipwb36axhjd5o
+        m: []
+        python_version: 3.13.3
+        t:
+            "3":
+                - 2
+                - 3
+                - 13
+                - 16
+                - 62
+            "4": 3.13.3
+            "5": 0.25.0
+            "8":
+                - 3
+            "12": 0.25.0
+            "13": windows-amd64
+        visualize:
+            gap_line:
+                panel_config:
+                    fieldSettings:
+                        stroke: null
+                        x: run
+                        "y": gap
+                    panelDefId: wandb/line/v0
+                    stringSettings:
+                        title: Train-Test Gap by Run
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: gap_line_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            test_accuracy_line:
+                panel_config:
+                    fieldSettings:
+                        stroke: null
+                        x: run
+                        "y": test_accuracy_final
+                    panelDefId: wandb/line/v0
+                    stringSettings:
+                        title: Test Accuracy by Run
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: test_accuracy_line_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            train_accuracy_line:
+                panel_config:
+                    fieldSettings:
+                        stroke: null
+                        x: run
+                        "y": train_accuracy_max
+                    panelDefId: wandb/line/v0
+                    stringSettings:
+                        title: Train Accuracy by Run
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: train_accuracy_line_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+best_train_key:
+    value: best_val_accuracy
+gap_threshold:
+    value: 0.08
+included_runs:
+    value: 84
+run_filter_state:
+    value: finished
+skipped_runs:
+    value: 10
+sort_by:
+    value: created_at
+sort_order:
+    value: asc
+source_project:
+    value: mnist-ann
+test_key:
+    value: test/accuracy
+train_high:
+    value: 0.95
+train_key:
+    value: train/accuracy
